@@ -25,7 +25,7 @@ func new_beginning(playerId):
 	$RPCClient.sendIdNewPlayer(playerId)
 	$RPCClient.playersLog.append({
 		"playerId" : playerId,
-		"position" : Vector2(54, 35)
+		"position" : Vector2(480, 260)
 	})
 	
 	for players in $RPCClient.playersLog:
